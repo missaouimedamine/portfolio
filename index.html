@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MISSAOUI Mohamed Amine - Data Science & AI Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Box with Links -->
+  
+
+
+  <!-- Header Section -->
+  <header class="header">
+      <img src="logo.png" alt="Logo" style="width: 220px; height: auto; margin-bottom: 15px;">
+
+    <div class="row justify-content-center" style="margin: 30px;">
+      <a href="#header" class="btn btn-light m-2" style="width: 150px;">Home</a>
+
+      <a href="#about" class="btn btn-light m-2" style="width: 150px;">About</a>
+      <a href="#projects" class="btn btn-light m-2" style="width: 150px;">Projects</a>
+      <a href="#skills" class="btn btn-light m-2" style="width: 150px;">Skills</a>
+
+  </div>
+    <h1>Hi, I'm MISSAOUI MOHAMED AMINE</h1>
+    <!-- Container for Animated Text -->
+<h2 class="text-light">
+  I'm <span id="animated-text"></span>
+</h2>
+
+
+  
+
+     <!-- Social Media Icons -->
+  <div class="mt-3">
+    <a href="https://github.com/MISSAOUI-MOHAMED-AMINE" target="_blank" class="text-light mx-2">
+      <i class="fab fa-github fa-2x"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/missaoui-mohamed-amine/" target="_blank" class="text-light mx-2">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="https://huggingface.co/MISSAOUI" target="_blank" class="text-light mx-2">
+      <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/huggingface.png" alt="Hugging Face" style="width: 35px; height: 35px; vertical-align: middle;">
+    </a>
+    
+    <a href="mailto:missaouimohamedamine7@gmail.com" class="text-light mx-2">
+      <i class="fas fa-envelope fa-2x"></i>
+    </a>
+
+  </div>
+</div>
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+  </header>
+
+  
+
+ <!-- About Me Section -->
+<section id="about" class="d-flex align-items-center text-light" style="background-color: #111; min-height: 100vh;">
+  <div class="container py-5 px-4">
+    <div class="row align-items-center">
+      <!-- Image Section -->
+      <div class="col-md-4 text-center">
+        <img src="profile.jpg" alt="Your Name" class="img-fluid rounded-circle shadow-lg" width="250">
+      </div>
+
+      <!-- Text Section -->
+      <div class="col-md-8">
+        <h2 class="text-warning fw-bold">About Me</h2>
+        <p class="lead">
+          Passionate <span class="text-warning">Data Scientist</span> & <span class="text-warning">AI Engineer</span> with expertise in 
+          <strong>Machine Learning, Deep Learning, and NLP</strong>. I design intelligent solutions to solve real-world problems 🚀.
+        </p>
+        <p>
+          My work focuses on **AI-driven applications**, MLOps, and NLP-based chatbots. I thrive in **building scalable AI solutions**, deploying robust **MLOps pipelines**, and applying **deep learning** to computer vision tasks.  
+        </p>
+
+        <!-- Skills List -->
+        <div class="d-flex flex-wrap">
+          <span class="badge bg-warning text-dark m-1">Python</span>
+          <span class="badge bg-warning text-dark m-1">Machine Learning</span>
+          <span class="badge bg-warning text-dark m-1">Deep Learning</span>
+          <span class="badge bg-warning text-dark m-1">NLP</span>
+          <span class="badge bg-warning text-dark m-1">MLOps</span>
+          <span class="badge bg-warning text-dark m-1">Computer Vision</span>
+          <span class="badge bg-warning text-dark m-1">Apache Airflow</span>
+          <span class="badge bg-warning text-dark m-1">Docker</span>
+        </div>
+
+        <!-- Animated Counter -->
+        <div class="mt-4">
+          <div class="row text-center">
+            <div class="col-4">
+              <h3 class="text-warning fw-bold"><span class="counter" data-count="3">0</span>+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="col-4">
+              <h3 class="text-warning fw-bold"><span class="counter" data-count="10">0</span>+</h3>
+              <p>AI Projects</p>
+            </div>
+            <div class="col-4">
+              <h3 class="text-warning fw-bold"><span class="counter" data-count="3">0</span>+</h3>
+              <p>Publications</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+ 
+</section>
+
+<section id="skills" class="skills">
+  <div class="content">
+        <h1>My Tech Stack</h1>
+        <div class="graph-container">
+            <div class="center-node">TECH STACK</div>
+        </div>
+    </div>
+    <script>
+      
+  const techStack = [
+            { name: "React", img: "https://cdn.worldvectorlogo.com/logos/fastapi.svg" },
+            { name: "Next.js", img: "https://img.stackshare.io/service/9078/mlflow.png" },
+            { name: "TypeScript", img: "https://cdn.freelogovectors.net/wp-content/uploads/2023/04/databrickslogo-freelogovectors.net_.png" },
+            { name: "Tailwind", img: "https://upload.wikimedia.org/wikipedia/fr/b/b6/Microsoft-Azure.png" },
+            { name: "Rust", img: "https://cdn.inspireuplift.com/uploads/images/seller_products/31661/1702633077_AWSlogoAmazonWebServiceslogo.png" },
+            { name: "Git", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+            { name: "PostgreSQL", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+            { name: "Go", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" },
+            { name: "Python", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+            { name: "Redux", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
+            { name: "Node.js", img: "https://api.nuget.org/v3-flatcontainer/langchain.core/0.17.0/icon" },
+            { name: "MongoDB", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+            { name: "Docker", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" }
+        ];
+
+        const container = document.querySelector('.graph-container');
+        const centerX = 300;  // Center X of the graph
+        const centerY = 300;  // Center Y of the graph
+        const radius = 200;   // Radius of the circular layout
+        const totalNodes = techStack.length;
+
+        techStack.forEach((tech, index) => {
+            const angle = (index / totalNodes) * (2 * Math.PI);
+            const x = centerX + radius * Math.cos(angle) - 35; // Adjust position
+            const y = centerY + radius * Math.sin(angle) - 35;
+
+            const node = document.createElement('div');
+            node.classList.add('tech-node');
+            node.style.left = `${x}px`;
+            node.style.top = `${y}px`;
+
+            const img = document.createElement('img');
+            img.src = tech.img;
+            img.alt = tech.name;
+            node.appendChild(img);
+
+            container.appendChild(node);
+        });
+    </script>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Featured Projects</h2>
+      <div class="row">
+
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <h5 class="project-title">🚑 HealthCare-AI-Platform</h5>
+            <p class="project-description">A smart healthcare platform leveraging AI to provide medical insights and predictions.</p>
+            <ul>
+              <li>Technologies: Python, TensorFlow, Flask, Streamlit</li>
+            </ul>
+            <a href="https://github.com/MISSAOUI-MOHAMED-AMINE/HealthCare-AI-Platform" class="btn btn-custom" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <h5 class="project-title">🔄 MLOps: Loan Approval Pipeline</h5>
+            <p class="project-description">End-to-end MLOps pipeline for loan approval classification, automating model deployment and monitoring.</p>
+            <ul>
+              <li>Technologies: Apache Airflow, MLflow, Docker, Kubernetes</li>
+            </ul>
+            <a href="https://github.com/MISSAOUI-MOHAMED-AMINE/Mlops" target="_blank" class="btn btn-custom" >View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <h5 class="project-title">🌾 AgriCareAI</h5>
+            <p class="project-description">An intelligent agricultural assistance platform that detects plant diseases using deep learning.</p>
+            <ul>
+              <li>Technologies: YOLOv8, Flask, SQLite</li>
+            </ul>
+            <a href="https://github.com/MISSAOUI-MOHAMED-AMINE/AgriCareAi" target="_blank" class="btn btn-custom">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <h5 class="project-title">🎥 YouTube ChatBot</h5>
+            <p class="project-description">A chatbot designed to analyze and respond to YouTube video comments for sentiment analysis.</p>
+            <ul>
+              <li>Technologies: Hugging Face, LLaMA, Selenium</li>
+            </ul>
+            <a href="https://github.com/MISSAOUI-MOHAMED-AMINE/Youtube-ChatBot" target="_blank" class="btn btn-custom">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <h5 class="project-title">😊 Facial Emotion Recognition</h5>
+            <p class="project-description">A deep learning model that detects and classifies facial emotions from images.</p>
+            <ul>
+              <li>Technologies: OpenCV, CNN, PyTorch</li>
+            </ul>
+            <a href="https://github.com/MISSAOUI-MOHAMED-AMINE/Facial-emotion-Recognition" target="_blank" class="btn btn-custom">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-center py-5">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p>If you want to collaborate or just say hello, feel free to reach out!</p>
+      <a href="mailto:your-email@example.com" class="btn btn-custom">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer text-center py-4">
+    <div class="container">
+      <p>&copy; 2025 MISSAOUI MOHAMED AMINE. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
